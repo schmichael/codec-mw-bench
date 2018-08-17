@@ -18,3 +18,5 @@ BenchmarkMsgpack_MD5_NoMulti-4            100000             14653 ns/op        
 PASS
 ok      github.com/schmichael/codec-mw-bench    16.071s
 ```
+
+Thanks to @apparentlymart for pointing me to why: https://github.com/ugorji/go/blob/00b869d2f4a5e27445c2d916fa106fc72c106d4c/codec/encode.go#L1036-L1051
